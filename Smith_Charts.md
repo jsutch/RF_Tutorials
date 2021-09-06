@@ -1,10 +1,15 @@
 # Smith Charts
 
+Main source material from Rohde & Schwarz
+
 https://www.youtube.com/watch?v=rUDMo7hwihs
 
 
-Named after Philip Hagar Smith, first described in January 1939
+Named after Philip Hagar Smith, first described in January 1939  
 http://smithchart.org/phsmith.shtml
+
+
+![Smith Chart with Annotations](smith_chart.jpg)
 
 - Has many applications.
 - the most common are impedence matching and the design of matching networks
@@ -30,7 +35,9 @@ A Smith Chart:
 
 ### layout
 
-Prime Center
+![Smith Chart Annotated](Smith_Chart-annotated1.jpg)
+
+### Prime Center
 - Point in the middle of chart
 - corresponds to the source impedence $Z_{0}$ and a VSWR of 1
 - in most RF systems the source is purely resistive 50 $\Omega$ load
@@ -52,8 +59,69 @@ Significance of the Prime Center:
     - the load is resonant at the frequency where the trace moves through the center
 
 
-Reistive Axis:
+### Reistive Axis:
+- The horizontal centerline
 - left of prime center decreases until 0 on the outer edge - A Short Circuit 
 - right of prime center increases until the outer edge where it reaches $\infty$ - an Open Circuit
 - therefore VSWR is $\infty$ on either end of the resistive axis. 100% reflected power
-- 
+-
+
+### Resistance Circles:
+![Resistive Circles](Resistive_Circles.png)
+
+- Most loads have complex impedances
+    - have conductive and inductive characteristics, so not flat on the resistive line
+
+Circle R=1 (red):
+- all values within represent a normalized resistance of 1
+
+Circle R=.2 (blue):
+- all values within represent a normalized resistance of .2
+
+Circle R=4 (green):
+- all values within represent a normalized resistance of 4
+
+and so on.
+ 
+The Normalized Resistance of any point is found by following the resistance circle to the horizontal axis and reading the value
+
+
+### Reactance 
+![Reactance Curve](reactance_curve.png)
+
+- the Reactive axis is the outer circle (circumference) since it's bent from a cartesian plane.
+-  Normalized Values along the outside. Get larger from L to R. 
+- Values increase rapidly as they get closer to the centerline at the right hand side of the chart (Open Circuit)
+- Normalized reactance are shown as Curves.
+- every point along the reactive curve has the same Imaginary part.
+- in the diagram every point along the line has a reactance value of 1
+- on the upper half of the chart all values are Inductive (positive)
+- on the upper half of the chart all values are Capacitative (negative)
+
+
+
+### Plotting the impedance on the Smith Chart
+
+Complex impedance - Z = R $\pm$ jX
+
+Our value is: 100 + j75 $\Omega$
+
+- normalize the impedence by dividing by $Z_{0}$
+    - (100 + j75 $\Omega$ ) / 50 == 2 + j1.5
+    - $R_{normalized}$ + $X_{normalized}$  (2 + 1.5)
+    - Find and plot the resistance circle for this normalized resistance
+        - $R_{normalized}$ == 2
+    - Find and plot the reactance curve
+        - $X_{normalized}$ == 1.5
+
+![plotting impedance](plotting_impedance.png)
+
+
+### Reversing the process to read an impedance from a Smith Chart
+- determine which resistance circle the point lies on
+- determine which reactance curve the point lies on
+- multiply the normalized values by the source impedance ( $Z_{0}$ ) to obtain actual values
+
+For R = .3 and X = 0.4, $Z_{normalized}$  = 0.3  - j0.4 (* 50) == 15 - 20
+- So: $Z_{L} == 15 - j20 $\Omega$
+
