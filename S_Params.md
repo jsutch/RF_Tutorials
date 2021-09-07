@@ -63,8 +63,8 @@ Some other common names:
 
 Reflection Coefficients:
 Quantified as return loss or VWSR (Voltage Standing Wave Ratio) (vizwarr)
-- $S_{11}$ : impedence input match (as return loss or VSWR)
-- $S_{22}$ : impedence output match (as return loss or VSWR)
+- $S_{11}$ : impedance input match (as return loss or VSWR)
+- $S_{22}$ : impedance output match (as return loss or VSWR)
 
 Transmission Coefficients:
 - $S_{21}$ - a measure of gain or loss between the input and output ports
