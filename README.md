@@ -22,6 +22,7 @@ https://www.youtube.com/watch?v=WPjniblApwk
 The notes make the most sense if they're read (or viewed on youtube links in the notes) in this order:
 - S Params
 - VSWR
+- Resistance/Reactance/Impedance (for a deeper dive or leave for later)
 - Smith Charts
 
 ### formatting notes
