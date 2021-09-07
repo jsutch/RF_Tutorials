@@ -7,7 +7,8 @@ https://www.youtube.com/watch?v=-Pi0UbErHTY
 - The standard way of measuring and denoting these are "S-Parameters".
 
 
-1, 2, and 3 port networks. Some examples:  
+1, 2, and 3 port networks.  
+Some examples:  
 1 port - antenna  
 2 port - filter, amplifier  
 3 port - directional coupler, mixer  
@@ -52,7 +53,7 @@ $S_{21}, S_{22}, S_{23}$
 $S_{31}, S_{32}, S_{33}$  
 
 
-S Params are Complex values, consisting of both a Magnitude and a Phase. They can change over frequency.
+S Params are Complex values, consisting of both a *Magnitude* and a *Phase*. They can change over *Frequency*.
 
 Reflection Coefficients like $S_{11}, S_{11}$ are often plotted on a Smith Chart
 

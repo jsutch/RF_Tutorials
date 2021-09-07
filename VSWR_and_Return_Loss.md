@@ -2,14 +2,22 @@
 
 https://www.youtube.com/watch?v=BijMGKbT0Wk
 
-#### VWSR and Return Loss are both related to the transfer of RF power.
+**VWSR** and **Return Loss** are both related to the transfer of RF power.
 
-VSWR - Voltage Standing Wave Ratio (vizwarr)
+### VSWR  - Voltage Standing Wave Ratio (pronounced "vizwarr")
 
-Maximum power is transferred when the Source of the power and the Load of the power have impedences that are Matched. (e.g. 50$\Omega$ on both sides)
+Defined as the ratio of the maximum to the minimum voltage on a loss-less line. It tells the severity of standing waves in a transmission line. Expressed as 3.0:1, 2.0:1. Higher is the value of VSWR higher is the mismatch. 
+
+Perfectly Matched or Ideal VSWR is 1:1.
+
+Complete Impedance Mismatch VSWR is ∞:1.
 
 
-when matched all the power provided by the Source is absorbed by the Load.
+
+Maximum power is transferred when the Source of the power and the Load of the power have impedences that are *Matched*. (e.g. 50$\Omega$ on both sides)
+
+
+When *Matched* all the power provided by the *Source* is absorbed by the *Load*.
 
 - RF systems are typically 50$\Omega$
 - Cable TV systems are typically 75$\Omega$
@@ -17,27 +25,29 @@ when matched all the power provided by the Source is absorbed by the Load.
 in Impedence Mismatch (50$\Omega$ to 75$\Omega$) causes some of the Forward Power to be reflected back to the Source. (Reflected or Reversed power)
 - Reflected Power is almost always undesireable
 
-Imedences are typically thought of as Resistive Powers, but in practice these are Complex values. They consist of a:
-- Resistive (Real) part
-- Reactive (Imaginary) part
+Imedences are typically thought of as Resistive Powers, but in practice these are Complex values.
+
+They consist of a:
+- *Resistive* (Real) part. Symbolized as: *R*
+- *Reactive* (Imaginary) part. Symbolized as *jZ*
 
 R - (resistive)
 jZ - (reactive)
 
-So the formula is:  
-R + jZ$\Omega$
+So the formula is:  **R + jZ$\Omega$**
 
-A complex impedence is Matched by a Complex Conjugate in which the sign of the imaginary part is reversed.
+A *Complex Impedence* is *Matched* by a *Complex Conjugate* in which the sign of the imaginary part is reversed.  
 e.g.
 
 (source)  ---------------------- (load)  
 35 + j6$\Omega$ is matched to 35 - j6$\Omega$
 
+![Source and Load Diagram](pics/Source_Load.png)
 
 
 ### Impedence
 
-Impedence is a complex value that consists of
+*Impedence* is a complex value that consists of
 - Resistance (R) which does not change with frequency 
 - Reactance (X) which does change with frequency
     - Two types of Reactance, created by Capacitors and Inductors
@@ -87,7 +97,7 @@ Two Methods:
 - return loss
 - VSWR 
 
-*Return Loss* is the difference in dB between the Forward and Reflected power
+### Return Loss - the difference in dB between the Forward and Reflected power
 
 forward power - return power == return loss
 
@@ -99,11 +109,17 @@ The value must always be a positive number since the level of reflected power is
 
 Even in the cast where 100% of the forward power is lost, some power will be lost on the path from the source to the load, so reflected power can never be 100%
 
+
+![Return Loss Formula](pics/return_loss_calculation.png)
+
 **standing waves**
 
-Forward signal
-Reverse signal
-forward + reverse signal - standing wave
+Forward signal  - signal from Source to Load
+Reverse/Reflected signal  - signal not absorbed by the Load
+Standing Wave - 
+forward + reverse signal - standing wave  
+
+![VSWR Wave Example](pics/vswr.png)
 
 VSwR is measure of the highest and lowest ratios in the standing wave.
 
@@ -178,7 +194,7 @@ Source -> Matching Network -> Load
 
 In this case:
 
-Source (max safe reflected power == 40w) 
+If you have a *Source*  with a Max Safe Reflected Power of 40w:
 
 - At VSWR 1.5 with 100w of Forward Power only 4w will be reflected back to source.
 - At VSWR 6, the reflected power of 50w would exceed the safe limit.
@@ -188,6 +204,8 @@ Source (max safe reflected power == 40w)
 
 
 
-
+## Other notes and links
+- https://en.wikipedia.org/wiki/Standing_wave_ratio
+- https://www.everythingrf.com/community/vswr-vs-return-loss
 
 

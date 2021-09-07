@@ -9,7 +9,7 @@ Named after Philip Hagar Smith, first described in January 1939
 http://smithchart.org/phsmith.shtml
 
 
-![Smith Chart with Annotations](smith_chart.jpg)
+![Smith Chart with Annotations](pics/smith_chart.jpg)
 
 - Has many applications.
 - the most common are impedence matching and the design of matching networks
@@ -35,7 +35,7 @@ A Smith Chart:
 
 ### layout
 
-![Smith Chart Annotated](Smith_Chart-annotated1.jpg)
+![Smith Chart Annotated](pics/Smith_Chart-annotated1.jpg)
 
 ### Prime Center
 - Point in the middle of chart
@@ -67,7 +67,7 @@ Significance of the Prime Center:
 -
 
 ### Resistance Circles:
-![Resistive Circles](Resistive_Circles.png)
+![Resistive Circles](pics/Resistive_Circles.png)
 
 - Most loads have complex impedances
     - have conductive and inductive characteristics, so not flat on the resistive line
@@ -87,7 +87,7 @@ The Normalized Resistance of any point is found by following the resistance circ
 
 
 ### Reactance 
-![Reactance Curve](reactance_curve.png)
+![Reactance Curve](pics/reactance_curve.png)
 
 - the Reactive axis is the outer circle (circumference) since it's bent from a cartesian plane.
 -  Normalized Values along the outside. Get larger from L to R. 
@@ -114,7 +114,7 @@ Our value is: 100 + j75 $\Omega$
     - Find and plot the reactance curve
         - $X_{normalized}$ == 1.5
 
-![plotting impedance](plotting_impedance.png)
+![plotting impedance](pics/plotting_impedance.png)
 
 
 ### Reversing the process to read an impedance from a Smith Chart
@@ -122,6 +122,7 @@ Our value is: 100 + j75 $\Omega$
 - determine which reactance curve the point lies on
 - multiply the normalized values by the source impedance ( $Z_{0}$ ) to obtain actual values
 
-For R = .3 and X = 0.4, $Z_{normalized}$  = 0.3  - j0.4 (* 50) == 15 - 20
-- So: $Z_{L} == 15 - j20 $\Omega$
+For R = .3 and X = 0.4, $Z_{normalized}$  = 0.3  - j0.4 (* 50) == 15 - 20  
+
+So in this case: $Z_{L} == 15 - j20 $\Omega$
 
