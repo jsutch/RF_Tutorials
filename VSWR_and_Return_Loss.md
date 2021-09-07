@@ -4,6 +4,8 @@ https://www.youtube.com/watch?v=BijMGKbT0Wk
 
 **VWSR** and **Return Loss** are both related to the transfer of RF power.
 
+![Forward and Reflected Power](pics/vswr-reflected-power-01.png)
+
 ### VSWR  - Voltage Standing Wave Ratio (pronounced "vizwarr")
 
 Defined as the ratio of the maximum to the minimum voltage on a loss-less line. It tells the severity of standing waves in a transmission line. Expressed as 3.0:1, 2.0:1. Higher is the value of VSWR higher is the mismatch. 
@@ -67,8 +69,9 @@ Because of Reactance, total Impedence varies by Frequency.
     - Antenna impedence in real world applications is dependant on placement relative to a Ground Plane or other nearby objects
 
 
-So with a Dummy Load the relative reflected power stays low and consistent over a variety of frequencies.
-So:  
+So with a Dummy Load the relative reflected power stays low and consistent over a variety of frequencies. In this example the frequency changes, but the reflected power stays the same.  
+
+Example:  
 | Freq | Reflected Power | 
 | ----------- | ----------- | 
 | 100mhz |  1w |  
@@ -202,10 +205,27 @@ If you have a *Source*  with a Max Safe Reflected Power of 40w:
 
 
 
+## Antenna notes:
+
+When adjusting the dipole length, the resonant point occurs when reactance “X” drops to near zero as seen in the following table:
+
+| Dipole length, L | Reactance, X | Impedance, Z| 
+| ---- | ---- | --- |
+| L > λ/2 | +X | Antenna is Inductive | 
+| L = λ/2 | 0 | Antenna is Resonant, Z = 72Ω | 
+| L < λ/2 | -X | Antenna is Capacitive | 
+
+Making a dipole length longer or shorter than 1/2 wavelength will increase the reactance and the antenna will not be properly matched to the rest of the system. 
+
+In some applications where the environment does not permit full size antennas to be installed, one would have to use antennas shorter than half wavelength (making the antenna more capacitive). 
+
+By adding some inductance in the form of a “loading coil” to the base, this extra capacitance can be cancelled out.
+
 
 
 ## Other notes and links
 - https://en.wikipedia.org/wiki/Standing_wave_ratio
 - https://www.everythingrf.com/community/vswr-vs-return-loss
+- https://www.cdt21.com/design_guide/impedance-and-standing-wave-ratio/
 
 
