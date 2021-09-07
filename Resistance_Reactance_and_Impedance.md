@@ -46,13 +46,22 @@ This is essentially *inertia against the flow of current*.
 When the alternating current goes through a pure reactance, a voltage drop is produced that is 90° out of phase with the current. Reactance is mathematically symbolized by the letter “X” and is measured in the unit of ohms (Ω).
 
 - varies with frequency due to capacitance and inductance
+- There are two types of reactance: capacitive reactance (Xc) and inductive reactance (XL).
 
+### Capacitive Reactance $X_{c}$
 
+Capacitive reactance ($X_{c}$) is large at low frequencies and small at high frequencies. For steady DC which is zero frequency (f = 0Hz), $X_{c}$ is infinite (total opposition), which means that capacitors pass AC but block DC.
+- $X_{c}$ = $\frac{1}{2\pi fC}$
 
-### Perfect circuit elements
-- Perfect resistors possess resistance, but not reactance. 
-- Perfect inductors and perfect capacitors possess reactance but no resistance. 
-- All components possess impedance, and because of this universal quality, it makes sense to translate all component values (resistance, inductance, capacitance) into common terms of impedance as the first step in analyzing an AC circuit.
+### Inductive Reactance, $X_{L}$
+
+Inductive reactance, $X_{L}$ is small at low frequencies and large at high frequencies. For steady DC (frequency zero), $X_{L}$ is zero (no opposition), which means that inductors pass DC but block high frequency AC. 
+- $X_{L}$ = 2$\pi$fL
+
+## Perfect circuit elements
+- Perfect *Resistors* possess resistance, but not reactance. 
+- Perfect *Inductors* and perfect capacitors possess reactance but no resistance. 
+- All components possess *Impedance*, and because of this universal quality, it makes sense to translate all component values (resistance, inductance, capacitance) into common terms of impedance as the first step in analyzing an AC circuit.
 
 e.g.
 
