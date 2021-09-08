@@ -1,9 +1,9 @@
 # Notes about RF
 
 These are notes related to RF, Power, and Antenna studies while I'm studying for an Amateur Extra class license. They're in markdown for clarity and pics and math symbols are supported.
-Eventually I'll add jupyter notebooks related to NanoVNA use and antennas I build which use MathJax to express math symbols with better.
+Eventually I'll add jupyter notebooks related to NanoVNA use and antennas I build which use MathJax which has better math symbol support.
 
-Please add comments or reach out to me if my notes could be improved or are incorrect in any way.
+Please  reach out to me if my notes could be improved or are incorrect in any way.
 
 Mostly taken from the fantastic Rohde & Schwarz youtube channel.  
 

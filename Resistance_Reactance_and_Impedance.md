@@ -154,3 +154,5 @@ All quantities expressed in *Complex*, not *Scalar* form
 ## References
 - https://www.allaboutcircuits.com/textbook/alternating-current/chpt-5/review-of-r-x-and-z/
 - https://electronicsclub.info/impedance.htm
+- https://www.youtube.com/watch?v=xKNv2gXYzlk - Explained! Impedance, Admittance, Reactance, Inductance, Capacitance, Conductance, and Susceptance
+- https://www.youtube.com/watch?v=TDHo1M9-r2I - Basic Antenna Resonance Fundamentals
