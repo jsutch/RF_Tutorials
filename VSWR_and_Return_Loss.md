@@ -166,7 +166,7 @@ Open circuit or short circuit |	1 	|100%  | ∞ |
 ||	0.2 |	4% 	|1.5|
 |$Z_{L}$ = $Z_{0}$ 	|0 	|0%| 	1| 
 
-The VSWR ranges from 1 or 1:1 (ideal) to infinity. When the load or antenna impedance, Z (whether real or complex) changes we get different values of VSWR that fall in this range. In particular since antenna impedance depends on the dimensions of its conductors which are themselves measured in wavelengths of the operating frequency, there will be an optimum design frequency where the antenna is closely matched to Zo and produce a low VSWR.
+The VSWR ranges from 1 or 1:1 (ideal) to infinity. When the load or antenna impedance, Z (whether real or complex) changes we get different values of VSWR that fall in this range. In particular since antenna impedance depends on the dimensions of its conductors which are themselves measured in wavelengths of the operating frequency, there will be an optimum design frequency where the antenna is closely matched to $Z_{0}$ and produce a low VSWR.
 
 --
 
