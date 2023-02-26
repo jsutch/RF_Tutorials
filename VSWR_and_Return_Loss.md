@@ -180,7 +180,7 @@ VSWR = $\frac{1 + |\Gamma|} {1 - |\Gamma|}$
 
 VSWR can also be calculated from Return Loss and Vice Versa:
 
-Return Loss = $20log_{10}$ $\left\frac{VSWR + 1}{VSWR - 1}\right$
+Return Loss = $20log_{10}$ $\left \frac{VSWR + 1} {VSWR - 1}\right$
 
 or 
 
