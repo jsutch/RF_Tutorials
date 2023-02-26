@@ -141,7 +141,7 @@ so if Vmax == 3 and Vmin == 1, VSWR == 3
 
 Reflection can be quantified by means of a Reflection Coefficient $\Gamma$
 
-Reflection coefficient or  “Γ” describes the tendency of the forward wave to reflect back towards the transmitter instead of being absorbed by the load. This depends on the load, $Z_{L}$ and cable impedance, $Z_{0}$ described by the equation $\frac{Z_{L} -  Z_{0}} {Z_{L} +  Z_{0}}$ (Γ = $Z_{L}$ − $Z_{0}$ / $Z_{L}$+$Z_{0}$)
+Reflection coefficient or  “Γ” describes the tendency of the forward wave to reflect back towards the transmitter instead of being absorbed by the load. This depends on the load, $Z_{L}$ and cable impedance, $Z_{0}$ described by the equation $\frac{Z_{L} -  Z_{0}} {Z_{L} +  Z_{0}}$ (Γ = $Z_{L}$ − $Z_{0}$ / $Z_{L}$ + $Z_{0}$)
 
 
 By substituting various values we can summarise what happens to Γ when we change the value of the load as follows:
