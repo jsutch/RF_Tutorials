@@ -68,23 +68,23 @@ e.g.
 A perfect *Resistor*:
 At 100 $\Omega$  
 
-R = 100$\Omega$  
-X = 0$\Omega$  
-Z = 100$\Omega$ < 0º
+R = 100 $\Omega$  
+X = 0 $\Omega$  
+Z = 100 $\Omega$ < 0º
 
 A perfect *Inductor*:  
 At 100mH, 159.15 Hz
 
-R = 0$\Omega$  
-X = 100$\Omega$  
-Z = 100$\Omega$ < 90º
+R = 0 $\Omega$  
+X = 100 $\Omega$  
+Z = 100 $\Omega$ < 90º
 
 A Perfect *Capacitor*:  
 At 10$\mu$F, 159.15Hz
 
-R = 0$\Omega$  
-X = 100$\Omega$  
-Z = 100$\Omega$ < -90º
+R = 0 $\Omega$  
+X = 100 $\Omega$  
+Z = 100 $\Omega$ < -90º
 
 
 ![](pics/perfect_resistor_capacitor_inductor.png)
