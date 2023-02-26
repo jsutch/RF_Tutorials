@@ -129,5 +129,5 @@ Our value is: 100 + j75 $\Omega$
 
 For R = .3 and X = 0.4, $Z_{normalized}$  = 0.3  - j0.4 (* 50) == 15 - 20  
 
-So in this case: $Z_{L} == 15 - j20  $\Omega$.
+So in this case: $Z_{L} == 15 - j20$\Omega$.
 
