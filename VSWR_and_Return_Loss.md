@@ -23,15 +23,14 @@ Perfectly Matched or Ideal VSWR is 1:1.
 Complete Impedance Mismatch VSWR is ∞:1.
 
 
-Maximum power is transferred when the Source of the power and the Load of the power have impedances that are *Matched*. (e.g. 50$\Omega$ on both sides)
-
+Maximum power is transferred when the Source of the power and the Load of the power have impedances that are *Matched*. (e.g. 50 $\Omega$ on both sides)
 
 When *Matched* all the power provided by the *Source* is absorbed by the *Load*.
 
-- RF systems are typically 50$\Omega$
-- Cable TV systems are typically 75$\Omega$
+- RF systems are typically 50 $\Omega$
+- Cable TV systems are typically 75 $\Omega$
 
-in Impedance Mismatch (50$\Omega$ to 75$\Omega$) causes some of the Forward Power to be reflected back to the Source. (Reflected or Reversed power)
+in Impedance Mismatch (50 $\Omega$ to 75 $\Omega$) causes some of the Forward Power to be reflected back to the Source. (Reflected or Reversed power)
 - Reflected Power is almost always undesireable
 - standing waves can cause heating effects in the cable or damage to the transmitter
 
@@ -44,13 +43,13 @@ They consist of a:
 R - (resistive)
 jZ - (reactive)
 
-So the formula is:  **R + jZ$\Omega$**
+So the formula is:  **R + jZ $\Omega$**
 
 A *Complex Impedance* is *Matched* by a *Complex Conjugate* in which the sign of the imaginary part is reversed.  
 e.g.
 
 (source)  ---------------------- (load)  
-35 + j6$\Omega$ is matched to 35 - j6$\Omega$
+35 + j6 $\Omega$ is matched to 35 - j6 $\Omega$
 
 ![Source and Load Diagram](pics/Source_Load.png)
 
