@@ -56,7 +56,7 @@ Capacitive reactance ($X_{c}$) is large at low frequencies and small at high fre
 ### Inductive Reactance, $X_{L}$
 
 Inductive reactance, $X_{L}$ is small at low frequencies and large at high frequencies. For steady DC (frequency zero), $X_{L}$ is zero (no opposition), which means that inductors pass DC but block high frequency AC. 
-- $X_{L}$ = 2$\pi$fL
+- $X_{L}$ = 2 $\pi$ fL
 
 ## Perfect circuit elements
 - Perfect *Resistors* possess resistance, but not reactance. 
